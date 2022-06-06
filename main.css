@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./Fonts/MyriadPro-Bold.eot');
+    src: url('./Fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('./Fonts/MyriadPro-Bold.woff') format('woff'),
+        url('./Fonts/MyriadPro-Bold.ttf') format('truetype'),
+        url('./Fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Verdana';
+    src: url('./Fonts/Verdana-Bold.eot');
+    src: url('./Fonts/Verdana-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/Verdana-Bold.woff2') format('woff2'),
+        url('./Fonts/Verdana-Bold.woff') format('woff'),
+        url('./Fonts/Verdana-Bold.ttf') format('truetype'),
+        url('./Fonts/Verdana-Bold.svg#Verdana-Bold') format('svg');
+    font-weight: bold;
+}
+html{
+    font-family: 'Verdana';
+}
+body{
+    background: url(./Images/background.png);
+}
+.Wrapper{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    margin-top: 50px;
+    color: #f26522;
+    font-size: 18px;
+}
+.logo{
+    float: left;
+}
+.logo:hover{
+    filter: invert(50%) sepia(50%) saturate(2000%) hue-rotate(350deg) brightness(100%) contrast(100%);
+}
+.logo-text{
+    color: #fff;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    float: left;
+}
+.logo-text:hover{
+    color: #f26522;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    float: left;
+}
+.number{
+    font-size: 20px;
+    float: right;  
+}
+.email{
+    font-size: 20px
+    font-weight: 300;
+    float: right;
+    color: #fff;
+}
+
+.Images-info-text3::after{
+    content: ">";
+}
+.Photo-info1{
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: block;
+    width: 140px;
+}
+.Photo-info{
+    padding-left: 20px;
+    display: block;
+    float: left;
+    width: 140px;
+}
+.Photo-info{
+    display: block;
+}
+.Photo-details{
+    z-index: -1;
+    background-color: #f26522;
+    color: white;
+    position: relative;
+    right: -46px;
+    top: -90px;
+    width: 308px;
+    height: 60px;
+}
+.Photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Photo-list{
+    float: right;
+    width: 33.33%;
+    clear: left;
+}
+.Photo-text{
+    padding-top: 15px;
+    color: #fff;
+    text-align: center;
+}
+.Images:hover{
+    transition: 3000ms;
+  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 75%);
+
+}
+/* footer */
+.footer{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    clear: both;
+    color: #fff;
+}
